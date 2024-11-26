@@ -1,0 +1,12 @@
+/* Change the color of the text selection highlight */
+/* #6D28D9 purple #126A32  */
+::selection {
+    background-color: transparent; /* Background color of the selection */
+    color: #126A32; /* Text color of the selection */
+  }
+  
+  /* For Firefox */
+  ::-moz-selection {
+    background-color: transparent; /* Background color of the selection */
+    color: #126A32; /* Text color of the selection */
+  }
