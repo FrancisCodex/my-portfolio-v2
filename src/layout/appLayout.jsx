@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '@/components/navbar'
-import Footer from '@/components/Footer'
+import Footer from '@/components/footer'
 import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import { useLocation } from 'react-router-dom'
 import './AppLayout.css' // Import the CSS file for transitions
