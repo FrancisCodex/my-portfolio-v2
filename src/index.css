@@ -24,7 +24,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 45 29% 97%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
@@ -50,7 +50,6 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
   }
-
   .dark {
     --background: 20 14.3% 4.1%;
     --foreground: 0 0% 95%;
@@ -114,7 +113,7 @@ h2 {
 }
 
 /* li is mostly used for navigation here */
-li{ 
+.navLink{
   font-family: 'Switzer', sans-serif;
   font-weight: 500;
 }

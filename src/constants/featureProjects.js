@@ -1,7 +1,6 @@
 import NestSeekerLogo from '@/assets/images/logos/logo_nestseeker.svg'
 import OnTheJobTrackerLogo from '@/assets/images/logos/Logo_OJT.svg'
 import CosmosCoffeeLogo from '@/assets/images/logos/logo_cosmos.svg'
-import { Coffee } from 'lucide-react'
 
 const FeaturedProjects = [
     {

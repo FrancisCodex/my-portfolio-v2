@@ -24,7 +24,7 @@ const Navbar = () => {
         <ul className='flex flex-row items-center justify-center gap-2 text-md md:text-xl'>
           {navList.map((navItem, index) => {
             return (
-              <li key={index}>
+              <li key={index} className='navLink'>
                 <NavLink
                   to={navItem.link}
                   className={({ isActive }) =>
