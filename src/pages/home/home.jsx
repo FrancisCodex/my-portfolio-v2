@@ -44,7 +44,7 @@ const Home = () => {
                 </svg>
               </a>
               {/* Button for Resume */}
-              <a href="https://drive.google.com/file/d/16TdFJiHOheneN4YoA7IauDJtTYFdwjEo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1XcgXi4KUq9YKpgkPzIoruUMCOI-z0LpI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button className='bg-foreground hover:bg-foreground'>My Resume</Button>
               </a>
           </div>
