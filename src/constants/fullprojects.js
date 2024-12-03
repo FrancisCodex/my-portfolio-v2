@@ -118,7 +118,21 @@ const AllProjects = [
             },
             date_posted: 'November 2024'
             
-        }
+        },
+        technologies_used: [
+          {
+            name: 'React-Vite',
+          },
+          {
+            name: 'Node.js',
+          },
+          {
+            name: 'Express',
+          },
+          {
+            name: 'Supabase',
+          },
+        ]
     },
     {
       id: 2,
@@ -217,7 +231,15 @@ const AllProjects = [
             ]
         },
         date_posted: 'November 2024'
-      }
+      },
+      technologies_used: [
+          {
+            name: 'React-Vite',
+          },
+          {
+            name: 'Supabase',
+          },
+      ]
     },
     {
       id: 3,
@@ -292,7 +314,19 @@ const AllProjects = [
             ]
         },
           date_posted: 'November 2024'
-      }
+      },
+      technologies_used: [
+          {
+            name: 'Node.js',
+          },
+          {
+            name: 'Express',
+          },
+          {
+            name: 'PostgreSQL',
+          }
+
+      ]
     },
     {
         id: 4,
@@ -342,7 +376,15 @@ const AllProjects = [
             ]
           },
         date_posted: 'November 2024'
-        }
+        },
+        technologies_used: [
+            {
+              name: 'Laravel',
+            },
+            {
+              name: 'PostgreSQL',
+            }
+        ]
     },
     {
         id: 5,
@@ -391,7 +433,15 @@ const AllProjects = [
             ]
           },
           date_posted: 'November 2024'
-        }
+        },
+        technologies_used: [
+            {
+              name: 'Next.js',
+            },
+            {
+              name: 'Strapi CMS',
+            }
+        ]
     },
     {
         id: 6,
@@ -439,7 +489,15 @@ const AllProjects = [
             ]
           },
           date_posted: 'November 2024'
-        }
+        },
+        technologies_used: [
+            {
+              name: 'Java',
+            },
+            {
+              name: 'MySQL',
+            }
+        ]
     },
 
   ]
