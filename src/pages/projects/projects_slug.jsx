@@ -117,7 +117,7 @@ const ProjectsDetails = () => {
             <p>
                 Project Status: <Badge 
                 variant={project.project_status === 'Completed' ? 'default' : 'outline'} 
-                className={project.project_status !== 'Completed' ? 'border-black dark:border-white bg-accent' : ''}
+                className={project.project_status !== 'Completed' ? 'border-black dark:border-white bg-accent' : 'dark:text-black'}
                 >
                 {project.project_status}
                 </Badge>
@@ -127,7 +127,20 @@ const ProjectsDetails = () => {
             <p>
                 Blog Posted on: {project.blog.date_posted}
             </p>
-            </div> 
+            </div>
+            <div>
+              {/* Technologies Used */}
+              <div className='flex flex-col gap-2'>
+                <p>Technologies used:</p>
+                <ul className='flex gap-2'>
+                  {project.technologies_used.map(tech => (
+                    <li key={tech.name} className='flex flex-col items-start'>
+                      <Badge>{tech.name}</Badge>
+                    </li>
+                  ))}
+                </ul>
+            </div>
+            </div>
         </div>
         <div>
             <Separator />

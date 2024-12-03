@@ -62,9 +62,11 @@ const Home = () => {
         <p className=''>
           Here are some of the technologies I have worked with:
         </p>
-        <ul className='grid grid-cols-2 md:grid-cols-5 gap-2 '>
+        <ul className='grid grid-cols-2 md:grid-cols-5 gap-3 '>
           {TechnologiesUsed.map(tech => (
-            <li key={tech.name} className='flex flex-col items-start font-medium'>
+            <li key={tech.name} className='flex flex-col items-start hover:-translate-y-1 hover:origin-bottom hover:rotate-2 transition'>
+              <img src={tech.light_mode} alt={tech.name} className='h-8 w-8 dark:hidden'/>
+              <img src={tech.dark_mode} alt={tech.name} className='h-8 w-8 hidden dark:block'/>
               <span>{tech.name}</span>
             </li>
           ))}
