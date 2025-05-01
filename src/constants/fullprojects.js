@@ -17,7 +17,7 @@ import BudgetFlowHeader from '@/assets/images/blog/budgetflow/blog_header.png'
 import BudgetFlowBody from '@/assets/images/blog/budgetflow/blog_body.png'
 import IWatchFilmsHeader from '@/assets/images/blog/iwatchfilms/blog_header.png'
 import StudentManagementHeader from '@/assets/images/blog/studentmanager/blog_header.png'
-
+import NestSeekerThesis from '@/assets/images/blog/nestseeker/thesis_proof.jpg'
 const AllProjects = [
     {
         id: 1,
@@ -27,7 +27,7 @@ const AllProjects = [
         project_github: 'https://github.com/FrancisCodex/NestSeeker',
         description: 'NestSeeker is an apartment finder that allows users to search for apartments and houses for rent.',
         responsibilities: 'Lead Developer',
-        project_status: 'In Progress',
+        project_status: 'Completed',
         date_project_started: 'January 2023',
         date_project_ended: 'Present',
         imageHeader: NestSeekerHeader,
@@ -107,16 +107,26 @@ const AllProjects = [
                         },
                         "The journey of NestSeeker is a testament to the power of technology in solving real-world problems. By leveraging data-driven insights and user-centric design, the application aims to revolutionize the rental market in the City and beyond.",
                     ]
+                },
+                {
+                  subtitle: "Thesis Defended",
+                  paragraphs: [
+                    "On April 2025, I successfully defended my thesis on NestSeeker, which was a significant milestone in my academic journey. The defense involved presenting the project to a panel of experts, demonstrating its functionalities, and addressing questions regarding its design and implementation. The positive feedback from the panel affirmed the project's potential impact on the rental market.",
+                    "I am grateful for the support of my thesis adviser, who guided me throughout the process. The defense not only validated my technical skills but also enhanced my confidence in presenting complex ideas to an audience. I look forward to applying the knowledge gained from this experience to future projects."
+                  ],
+                  imageBody: NestSeekerThesis
                 }
             ],
             conclusion: {
                 subtitle: "To end things off",
                 paragraphs: [
+                    "I want to thank my groupmates for their support in this project, and I am grateful for the opportunity to work with them. I also want to thank my adviser for their guidance and support throughout the project. I am excited to see where this project will go in the future and I hope to continue working on it.",
                     "NestSeeker represents more than just a project; it is a solution to a real-world problem. Through collaboration, innovation, and dedication, we are working to transform the rental experience for tenants and landlords in Butuan City. As the lead programmer, this journey has not only enriched my technical skills but also taught me the value of user-centric design and algorithmic precision.",
-                    " If you're curious to learn more about the project or collaborate, feel free to reach out through my portfolio. Together, let’s innovate solutions for better living experiences!"
+                    "If you're curious to learn more about the project or collaborate, feel free to reach out through my portfolio. Together, let’s innovate solutions for better living experiences!"
                 ]
             },
-            date_posted: 'November 2024'
+            date_posted: 'November 2024',
+            date_updated: 'May 2025',
             
         },
         technologies_used: [
@@ -142,7 +152,7 @@ const AllProjects = [
       project_github: 'https://github.com/FrancisCodex/OJT-Tracker',
       description: 'OJT-Management for School Coordinators and Training Agencies.',
       responsibilities: 'Full Stack Developer',
-      project_status: 'In Progress',
+      project_status: 'Completed',
       date_project_started: 'September 2024',
       date_project_ended: 'Present',
       imageHeader: OJTHeader,
@@ -230,7 +240,8 @@ const AllProjects = [
               "Stay tuned for the official launch and explore how this system is set to redefine OJT tracking for all schools. For collaboration or inquiries, feel free to connect through my portfolio!"
             ]
         },
-        date_posted: 'November 2024'
+        date_posted: 'November 2024',
+        date_updated: 'May 2025'
       },
       technologies_used: [
           {

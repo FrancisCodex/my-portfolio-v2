@@ -127,6 +127,11 @@ const ProjectsDetails = () => {
             <p>
                 Blog Posted on: {project.blog.date_posted}
             </p>
+            {project.blog.date_updated && (
+                <p>
+                Last updated on: {project.blog.date_updated}
+                </p>
+            )}
             </div>
             <div>
               {/* Technologies Used */}
