@@ -8,7 +8,8 @@ import TechnologiesUsed from '@/constants/technologies'
 import { Tooltip, TooltipContent, TooltipTrigger, TooltipProvider } from '@/components/ui/tooltip'
 import { Link } from 'react-router-dom'
 import { Link2 } from 'lucide-react'
-
+import gitlab_black from '@/assets/images/tech_logo/gitlab_black.svg'
+import gitlab_white from '@/assets/images/tech_logo/gitlab_white.svg'
 
 const Home = () => {
   const [currentTime, setCurrentTime] = useState(new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila' }));
@@ -26,7 +27,7 @@ const Home = () => {
       <section className='flex flex-col-reverse items-center md:grid md:grid-cols-3 w-full gap-3 md:gap-0'>
         <div className='flex flex-col gap-2 text-wrap col-span-2'>
           <h1 className='text-3xl'>
-            Hi, I'm Francis Adrian Altesing 👋
+            Hi, I'm Francis Adrian Altesing <span className=''>👋</span>
           </h1>
           <p className=''>
             I am a Full Stack Developer with a passion for creating web applications. I have experience in developing web applications using React, Node.js, Express, and PostgreSQL. I am also familiar with Django, Laravel, and NextJS. I am currently learning Ruby on Rails.
@@ -55,6 +56,17 @@ const Home = () => {
               </TooltipTrigger>
               <TooltipContent>
                 <p>GitHub</p>
+              </TooltipContent>
+            </Tooltip>
+            <Tooltip>
+              <TooltipTrigger>
+                <a href='https://gitlab.com/francisaltesing' target="_blank" rel="noopener noreferrer" className="text-black dark:text-white">
+                  <img src={gitlab_black} alt="GitLab Logo" className='h-9 w-9 dark:hidden'/>
+                  <img src={gitlab_white} alt="GitLab Logo" className='h-9 w-9 hidden dark:block'/>
+                </a>
+              </TooltipTrigger>
+              <TooltipContent>
+                <p>GitLab</p>
               </TooltipContent>
             </Tooltip>
             <Tooltip>
@@ -130,6 +142,16 @@ const Home = () => {
       {/* Work Experience */}
       <section className='flex flex-col gap-5 pb-10'>
         <h2 className='text-2xl'>Work Experience</h2>
+        <div className='grid grid-rows-1 md:grid-cols-2 gap-5'>
+        
+        <div className='w-fit p-4'>
+          <div  className='flex items-center justify-between'>
+            <h3 className='font-medium'>Sept 2025 - Present</h3>
+          </div>
+          <p>Full Stack Developer</p>
+          <p>Ebos Cloud Accountants Pte Ltd.</p>
+        </div>
+
         <div className='w-fit p-4'>
           <div  className='flex items-center justify-between'>
             <h3 className='font-medium'>Jan 2025 - April 2025</h3>
@@ -149,14 +171,16 @@ const Home = () => {
           <p>Full Stack Developer Intern</p>
           <p>Caraga State University - Navigatu TBI</p>
         </div>
+        </div>
       </section>
 
       {/* Education */}
       <section className='flex flex-col gap-5 pb-10'>
         <h2 className='text-2xl '>Education</h2>
+        <div className='grid grid-rows-1 md:grid-cols-2 gap-5'>
         <div className='w-fit p-4'>
           <div className='flex items-center justify-between'>
-            <h3 className='font-medium'>2020 - 2025</h3>
+            <h3 className='font-medium'>2021 - 2025</h3>
             <TooltipProvider>
             <Tooltip>
               <TooltipTrigger>
@@ -173,6 +197,18 @@ const Home = () => {
           <p>Caraga State University - Main</p>
           <p>Bachelor of Science in Information Technology</p>
           <p>Graduated with Cum Laude:  <strong>1.67 GPA</strong></p>
+        </div>
+
+        <div>
+          <div className='w-fit p-4'>
+            <div className='flex items-center justify-between'>
+              <h3 className='font-medium'>2020 - 2021</h3>
+            </div>
+            <p>Cebu Institute of Technology - University</p>
+            <p>Bachelor of Science in Computer Engineering</p>
+            <p>Completed 1st Year, 1st</p>
+          </div>
+        </div>
         </div>
       </section>
 
