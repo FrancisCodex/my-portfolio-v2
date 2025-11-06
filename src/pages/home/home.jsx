@@ -27,7 +27,7 @@ const Home = () => {
       <section className='flex flex-col-reverse items-center md:grid md:grid-cols-3 w-full gap-3 md:gap-0'>
         <div className='flex flex-col gap-2 text-wrap col-span-2'>
           <h1 className='text-3xl'>
-            Hi, I'm Francis Adrian Altesing <span className=''>👋</span>
+            Hi, I'm Francis Adrian Altesing <span className='waving-hand'>👋</span>
           </h1>
           <p className=''>
             I am a Full Stack Developer with a passion for creating web applications. I have experience in developing web applications using React, Node.js, Express, and PostgreSQL. I am also familiar with Django, Laravel, and NextJS. I am currently learning Ruby on Rails.
